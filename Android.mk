@@ -23,7 +23,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := webview
 LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
+LOCAL_CERTIFICATE := platform
 LOCAL_REQUIRED_MODULES := \
         libwebviewchromium_loader \
         libwebviewchromium_plat_support
